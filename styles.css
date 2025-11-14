@@ -33,3 +33,22 @@ body, html {
     font-weight: bold;
     z-index: 1000;
 }
+
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.back-button {
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: #004aad;
+  color: white;
+  border-radius: 6px;
+}
+.back-button:hover {
+  background-color: #003580;
+}
